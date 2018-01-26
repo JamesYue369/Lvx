@@ -1,19 +1,30 @@
 {
-  "name": "lvx",
+  "name": "lvx-cli",
   "version": "1.0.0",
-  "description": "Lvx Cli",
-  "main": "index.js",
+  "description": "A simple CLI for Lvx projects.",
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "bin",
+    "template"
+  ],
   "bin": {
     "lvx": "bin/lvx"
   },
   "keywords": [
     "lvx",
-    "cli"
+    "lvx-cli"
   ],
-  "author": "jamesyue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesYue369/Lvx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JamesYue369/Lvx/issues"
+  },
+  "author": "james yue",
   "license": "MIT",
   "dependencies": {
     "async": "^2.6.0",
