@@ -1,0 +1,27 @@
+{
+  "name": "lvx",
+  "version": "1.0.0",
+  "description": "Lvx Cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lvx": "bin/lvx"
+  },
+  "keywords": [
+    "lvx",
+    "cli"
+  ],
+  "author": "jamesyue",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "consolidate": "^0.15.0",
+    "handlebars": "^4.0.11",
+    "inquirer": "^5.0.1",
+    "metalsmith": "^2.3.0"
+  }
+}
